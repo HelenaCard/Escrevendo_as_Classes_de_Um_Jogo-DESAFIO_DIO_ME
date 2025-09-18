@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Ataque de Herói</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Escolha seu Herói</h1>
+        <p>Selecione um herói para ver seu ataque!</p>
+
+        <div class="hero-selection">
+            <div class="hero-option" onclick="atacarHeroi('mago')">
+                <img src="https://via.placeholder.com/100/3498db/ffffff?text=Mago" alt="Mago">
+                <span>Mago</span>
+            </div>
+            <div class="hero-option" onclick="atacarHeroi('guerreiro')">
+                <img src="https://via.placeholder.com/100/e74c3c/ffffff?text=Guerreiro" alt="Guerreiro">
+                <span>Guerreiro</span>
+            </div>
+            <div class="hero-option" onclick="atacarHeroi('monge')">
+                <img src="https://via.placeholder.com/100/9b59b6/ffffff?text=Monge" alt="Monge">
+                <span>Monge</span>
+            </div>
+            <div class="hero-option" onclick="atacarHeroi('ninja')">
+                <img src="https://via.placeholder.com/100/2ecc71/ffffff?text=Ninja" alt="Ninja">
+                <span>Ninja</span>
+            </div>
+        </div>
+
+        <div id="resultado" class="result-message">
+            <p>Seu herói está esperando...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

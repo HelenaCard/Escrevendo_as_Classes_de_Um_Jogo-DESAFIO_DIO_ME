@@ -1,0 +1,19 @@
+{
+  "name": "classes-heroi",
+  "version": "1.0.0",
+  "description": "Um projeto interativo para demonstrar o uso de classes e objetos em JavaScript.",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css",
+    "classes",
+    "objetos",
+    "desafio"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC"
+}
